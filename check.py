@@ -19,7 +19,7 @@ def check(url):
 		return;
 	print("[Checking...]", url)
 	try:
-		r = requests.get(url)
+		r = requests.get(url, timeout=5)
 		if r.status_code != 200:
 		  print("[Access Error][URL]", url, " [response code]", r.status_code)
 	except Exception as e:
