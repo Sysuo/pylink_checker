@@ -3,7 +3,7 @@
 
 ## 環境
 Python3 以上で動作します。
-Dockerfileが入っているので、dockerコンテナを作って動かせます。
+`Dockerfile`が入っているので、dockerコンテナを作って動かせます。
 こちらのコマンドでビルドできます。
 ```
 ./docker-up.sh
